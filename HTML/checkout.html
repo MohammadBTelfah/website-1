@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Checkout</title>
+<link rel="stylesheet" href="/Css/checkout.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-column">
+      <h2>Continue shopping</h2>
+      <div class="cart-status">
+        <h3>Shopping cart</h3>
+        <p>Your cart is currently empty.</p>
+      </div>
+    </div>
+    <div class="right-column">
+      <div class="card-details">
+        <h2>Card details</h2>
+        <div class="form-group">
+          <label for="card-type">Card type</label>
+          <input type="text" id="card-type" placeholder="e.g., Visa, Mastercard">
+        </div>
+        <div class="form-group">
+          <label for="cardholder-name">Cardholder's Name</label>
+          <input type="text" id="cardholder-name" placeholder="Cardholder's Name">
+        </div>
+        <div class="form-group">
+          <label for="card-number">Card Number</label>
+          <input type="text" id="card-number" placeholder="1234 5678 9012 3457">
+        </div>
+        <div class="form-group expiry-cvv">
+          <label for="expiry">Expiration</label>
+          <input type="text" id="expiry" placeholder="MM/YYYY">
+          <label for="cvv">CVV</label>
+          <input type="text" id="cvv" placeholder="•••">
+        </div>
+        <div class="totals">
+          <p>Subtotal: <span>$0.00</span></p>
+          <p>Shipping: <span>$0.00</span></p>
+          <p>Total (Incl. taxes): <span>$0.00</span></p>
+        </div>
+        <button type="submit">Checkout</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -8,7 +8,7 @@ body {
     background: #000;
     color: #fff;
     padding: 40px;
-    text-align: left; /* Align text to the left */
+    text-align: left; 
     border-radius: 8px;
     max-width: 800px;
     margin: 50px auto;
@@ -34,23 +34,23 @@ body {
 }
 
 .story-content-container {
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Center vertically */
+    display: flex; 
+    align-items: center; 
 }
 
 .story-content {
-    flex: 1; /* Take remaining space */
-    margin-right: 20px; /* Space between text and image */
+    flex: 1; 
+    margin-right: 20px; 
 }
 
 .story-image {
-    max-width: 400px; /* Set a maximum width for the image */
+    max-width: 400px; 
     height: auto;
     border-radius: 8px;
 }
 .location-container {
-    text-align: center; /* Center the text */
-    margin-top: 50px; /* Space above the section */
+    text-align: center; 
+    margin-top: 50px; 
 }
 
 .location-title {
@@ -78,6 +78,6 @@ body {
     left: 50%;                
     width: 50%;              
     height: auto;             
-    object-fit: cover;        
+    object-fit: cover;
     transform: translate(-50%, -50%); 
 }
