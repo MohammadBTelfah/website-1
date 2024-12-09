@@ -60,11 +60,18 @@ body{
     background-color: #fa8231; 
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 12px 24px; 
     border-radius: 5px;
     cursor: pointer;
-    font-size: 1em;
+    font-size: 1.1em; 
     display: inline-block;
+    min-width: 120px; 
+    text-align: center; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+.add-to-cart:hover {
+    background-color: #f77f2a;
 }
 
 .add-to-cart:hover {
@@ -75,16 +82,24 @@ body{
     justify-content: center;
     align-items: flex-start;
     gap: 20%;
+    height: 540px;
+    margin-bottom: 20px;
     flex-wrap: wrap;
 }
 
 .menu-it {
     text-align: center;
     position: relative;
-    width: 350px; 
+    width: 350px;
+    height: 540px;
+    margin-bottom: 20px;
     padding: 20px; 
     border-radius: 10px; 
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 4px 20px black; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .menu-it img {
@@ -100,6 +115,7 @@ body{
     text-align: center;
     color: #D4AF37;
     font-weight: bold;
+    height: 15%;
 
 }
 .btn{
@@ -112,7 +128,8 @@ body{
     cursor: pointer;
     font-size: 1em;
     display: inline-block;
-
+    text-align: center;
+    height: 15%;
 }
 .btn + .btn {
     margin-left: 15px; 
