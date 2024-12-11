@@ -82,11 +82,11 @@ body {
   width: 30px;
   height: 30px;
   background-color: #ff4b47;
-  justify-content: center;
-  align-items: center;
   color: white;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 14px; /* يمكنك تعديل الحجم حسب الحاجة */
+  font-weight: bold; /* لإبراز النص */
 }
