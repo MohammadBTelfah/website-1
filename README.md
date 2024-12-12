@@ -7,12 +7,12 @@
  2. About Us
  3. Menu
  4. Contact Us
- 5. Shopping Cart
 
 # **what the website misses**
-  ## how to add item to shopping cart from Menu (thats happen becuase i have many javascript pages i dont know where to put the code or how i added it to all the pages)
+ ##  1- shopping cart and checkout 
 
 
 # Thank You For reading this 
+
 
  # Mohammed Telfah
